@@ -1,0 +1,25 @@
+@import "styles/normalize";
+@import "styles/fonts";
+@import "styles/vars";
+
+body {
+  background: $bg;
+  font-family: 'robotoregular', sans-serif;
+
+  user-select: none; // test autoprefixer
+}
+
+.wrapper {
+  text-align: center;
+  padding: 30px;
+}
+
+.img-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
